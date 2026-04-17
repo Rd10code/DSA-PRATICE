@@ -21,17 +21,33 @@ public class loops {
         //     day++;
         // }while(day>2);
 
-        for (int i = 1; i <= 10; i++) {
-        if (i % 2 == 0) {
-        // Code for even numbers
-        System.out.println(i+" Number is even");
-        } else {
-        // Code for odd numbers
-        System.out.println(i+" Number is odd");
+        // for (int i = 1; i <= 10; i++) {
+        // if (i % 2 == 0) {
+        // // Code for even numbers
+        // System.out.println(i+" Number is even");
+        // } else {
+        // // Code for odd numbers
+        // System.out.println(i+" Number is odd");
 
+        // }
+
+//         for(int i=0;i<=25;i+=5){
+//             System.out.println(i);
+//         }
+// }
+
+        //factorial
+        int n = 5;
+        int factorial =1;
+
+        while(n>0){
+            factorial*=n;
+
+            n--;
         }
-}
+        System.out.print(factorial);
  
 }
 }
+
           
