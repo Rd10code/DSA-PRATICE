@@ -20,6 +20,17 @@ public class loops {
         //     System.out.print(day);
         //     day++;
         // }while(day>2);
+
+        for (int i = 1; i <= 10; i++) {
+        if (i % 2 == 0) {
+        // Code for even numbers
+        System.out.println(i+" Number is even");
+        } else {
+        // Code for odd numbers
+        System.out.println(i+" Number is odd");
+
+        }
+}
  
 }
 }
