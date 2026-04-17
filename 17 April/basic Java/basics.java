@@ -10,11 +10,37 @@ public class basics {
         // System.out.print(num+2);
 
         //Type Casting
+
         // float a = 24.10f;
         // int b = (int)a;
         // System.out.println(b);
         // sc.close();
 
+        //IF ELSE STATEMENT
+
+        // int num =sc.nextInt();
+        // int b =sc.nextInt();
+
+        // if(a>b){
+        //     System.out.print("Number "+a+" is bigger");
+        // }else{
+        //     System.out.print("Number "+b+" is bigger");
+        // }
+
+        // if(num%2==0){
+        //     System.out.print("even");
+        // }else{
+        //     System.out.print("odd");
+
+        // }
         
+        // Ternary Operator
+
+        int larger = (5<2)?5:2;
+        System.out.print(larger);
+
+        boolean num = (6%2==0)?true:false;
+        System.out.println(num);
+
     }    
 }
