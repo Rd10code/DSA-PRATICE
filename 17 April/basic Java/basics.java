@@ -36,11 +36,31 @@ public class basics {
         
         // Ternary Operator
 
-        int larger = (5<2)?5:2;
-        System.out.print(larger);
+        // int larger = (5<2)?5:2;
+        // System.out.print(larger);
 
-        boolean num = (6%2==0)?true:false;
-        System.out.println(num);
+        // boolean num = (6%2==0)?true:false;
+        // System.out.println(num);
+
+        //Switch Statement;
+        int day = 4;
+        switch (day) {
+            case 1:
+                System.out.print("Monday");
+                break;
+          case 2:
+                System.out.print("Tuesday");
+                break;
+          case 3:
+                System.out.print("Wednesday");
+                break;
+          case 4:
+                System.out.print("Thursday");
+                break;
+        
+            default:
+                break;
+        }
 
     }    
 }
