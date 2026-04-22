@@ -51,5 +51,6 @@ public class largestnumber {
             System.out.print(arr[i]+" ");
         }
 
+        sc.close();
     }
 }
